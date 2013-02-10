@@ -1,0 +1,70 @@
+{"bookmarksBarName": { "message":
+"書籤列"},
+	"extName": {
+		"message": "非官方谷歌書籤"
+	},
+	"url": {
+		"message": "https://www.google.com/bookmarks/?output=xml&num=30000"
+	},
+	"bookmarkManagerName": {
+		"message": "Bookmarks Manager"
+	},
+	"createQuestion": {
+		"message": "你要在$bookmarksBarName$內新增一個命名為“$folder$”的資料夾嗎？\n\n如果此資料夾不存在，書籤不會被同步。",
+		"placeholders": {
+			"bookmarkManagerName": {
+				"content": "$1"
+			},
+			"bookmarksBarName": {
+				"content": "$2"
+			},
+			"folder": {
+				"content": "$3"
+			}
+		}
+	},
+	"welcome": {
+		"message": "歡迎使用非官方谷歌書籤擴充功能！"
+	},
+	"thankYouForUpgrading": {
+		"message": "非官方谷歌書籤擴充功能已經升級到$version$版本！",
+		"placeholders": {
+			"version": { "content": "$1" }
+		}
+	},
+	"firstRunSyncedNoBookmarks": {
+		"message": "$welcome$\n\n首次同步已完成，但沒有從谷歌檢索到任何書籤。您可能沒有登錄。你想看看XML同步數據嗎？（如果你還沒有登錄，系統會提示您。）",
+		"placeholders": {
+			"welcome": { "content": "$1" }
+		}
+	},
+	"firstRunSyncedBookmarks": {
+		"message": "$welcome$\n\n首次同步已完成，並且成功地檢索到$lastSyncBookmarks$個書籤。",
+		"placeholders": {
+			"welcome": { "content": "$1" },
+			"lastSyncBookmarks": {
+				"content": "$2"
+			}
+		}
+	},
+	"syncFailed": {
+		"message": "Unable to sync!"
+	},
+	"rootFolderNotFound": {
+		"message": "Unable to sync! Please feedback on Web Store with this message:\n\n$bookmarksBarName$ not found in $bookmarksManagerName$. locale: $locale$. Root folders: $rootFolders$.",
+		"placeholders": {
+			"bookmarksManagerName": {
+				"content": "$1"
+			},
+			"bookmarksBarName": {
+				"content": "$2"
+			},
+			"locale": {
+				"content": "$3"
+			},
+			"rootFolders": {
+				"content": "$4"
+			}
+		}
+	}
+}

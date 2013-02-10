@@ -1,0 +1,75 @@
+{
+	"extName": {
+		"message": "Unofficial Google Bookmarks"
+	},
+	"url": {
+		"message": "https://www.google.com/bookmarks/?output=xml&num=30000"
+	},
+	"bookmarksBarName": {
+		"message": "Bookmarks Bar"
+	},
+	"googleBookmarksFolderName": {
+		"message": "Google Bookmarks"
+	},
+	"bookmarkManagerName": {
+		"message": "Bookmarks Manager"
+	},
+	"createQuestion": {
+		"message": "Create the folder \"$folder$\" under \"$bookmarksBarName$\" in your $bookmarkManagerName$?\n\nIf this folder is not present, nothing will be synced!",
+		"placeholders": {
+			"bookmarkManagerName": {
+				"content": "$1"
+			},
+			"bookmarksBarName": {
+				"content": "$2"
+			},
+			"folder": {
+				"content": "$3"
+			}
+		}
+	},
+	"welcome": {
+		"message": "Welcome to Unofficial Google Bookmarks extension!"
+	},
+	"thankYouForUpgrading": {
+		"message": "Thank you for upgrading Unofficial Google Bookmarks to version $version$!",
+		"placeholders": {
+			"version": { "content": "$1" }
+		}
+	},
+	"firstRunSyncedNoBookmarks": {
+		"message": "$welcome$\n\nThe first sync has completed but no bookmark was retrieved from Google. You might not be signed in. Do you want to look at your sync data XML? (You will be prompted to sign in if you haven't.)",
+		"placeholders": {
+			"welcome": { "content": "$1" }
+		}
+	},
+	"firstRunSyncedBookmarks": {
+		"message": "$welcome$\n\nThe first sync has completed and you successfully retrieved $lastSyncBookmarks$ bookmarks from Google Bookmarks.",
+		"placeholders": {
+			"welcome": { "content": "$1" },
+			"lastSyncBookmarks": {
+				"content": "$2"
+			}
+		}
+	},
+	"syncFailed": {
+		"message": "Unable to sync!"
+	},
+	"rootFolderNotFound": {
+		"message": "Unable to sync! Please feedback on Web Store with this message:\n\n$bookmarksBarName$ not found in $bookmarksManagerName$. locale: $locale$. Root folders: $rootFolders$.",
+		"placeholders": {
+			"bookmarksManagerName": {
+				"content": "$1"
+			},
+			"bookmarksBarName": {
+				"content": "$2"
+			},
+			"locale": {
+				"content": "$3"
+			},
+			"rootFolders": {
+				"content": "$4"
+			}
+		}
+	}
+}
