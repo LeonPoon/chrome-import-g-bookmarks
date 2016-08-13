@@ -12,7 +12,7 @@ Labels on bookmarks are treated as path names in which the bookmark appear, usin
 
 Changes made to Google Bookmarks will be synchronised into Chrome every one minute.
 
-Open source. Feel free to contribute at <https://code.google.com/p/chrome-import-g-bookmarks/>.
+Open source [GPLv3](LICENSE.md). Feel free to contribute at <https://github.com/LeonPoon/chrome-import-g-bookmarks>.
 
 Usually I publish this on Chrome Web Store at <http://goo.gl/WHmXH>.
 
